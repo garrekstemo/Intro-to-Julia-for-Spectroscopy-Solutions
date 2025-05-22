@@ -11,10 +11,7 @@ rand(1:20, 2, 3)
 # Use a comprehension to create an array of numbers 1 to 100 that are divisible by 7.
 [x for x in 1:100 if x % 7 == 0]
 
-##
-# Problems
-
-# Problem 1
+## Problem 1
 
 # Set every other number to zero
 v = collect(1:10)
