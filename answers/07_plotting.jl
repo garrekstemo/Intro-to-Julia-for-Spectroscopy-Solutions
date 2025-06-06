@@ -4,7 +4,7 @@
 using GLMakie
 
 x = y = range(-1, 1, length=200)
-a = 0.1
+a = 0.3
 q = 1
 ϕ(x, y) = q / (sqrt((x + a)^2 + y^2)) - q / (sqrt((x - a)^2 + y^2))
 z = [ϕ(xi, yi) for xi in x, yi in y]
